@@ -32,7 +32,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                   Row(
-                    children: [Icon(Icons.star), Text("41")],
+                    children: [
+                      Icon(
+                        Icons.star,
+                        color: Color.fromARGB(255, 255, 0, 0),
+                      ),
+                      Text("41")
+                    ],
                   )
                 ],
               ),
